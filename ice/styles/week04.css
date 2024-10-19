@@ -1,0 +1,23 @@
+body{
+    background-color: cornflowerblue;
+    max-width:1600px;
+    margin: 0 auto;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h1:hover{
+    color: black;
+}
+
+#list{
+    width: 350px;
+}
+
+img{
+width:300px;
+margin: 0 auto;
+}
