@@ -1,0 +1,26 @@
+body{
+    margin: auto 0;
+    max-width: 1600px;
+}
+main, footer{
+    max-width: 300px;
+    text-align: center;
+}
+main p{
+    color: gray;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: steelblue;
+    color: white;
+}
+#first{
+    grid-column: 1/2;
+}
+#second{
+    grid-column: 2/3;
+}
+#third{
+    grid-column: 3/4;
+}
