@@ -180,6 +180,21 @@ main section img{
     grid-column: 8/10;
     grid-row: 2/3;
 }
+.image-right{
+    float: right;
+    width: 350px;
+}
+.image-left{
+    float: left;
+    width: 350px;
+}
+.faq p{
+    color:#3C474B;
+}
+.faq h1{
+    color: #4F7CAC;
+    text-align: center;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
