@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Slabo 13px');
+header{
+    background-color: #6e8898;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-align: center;
+    color: #f2f4f3;
+    padding: 40px;
+    font-family: Playfair Display;
+    text-decoration: none;
+    font-size: 35px;
+}
+nav a:hover{
+    background-color: #111D4A;
+    color: #FFCF56;
+}
+footer{
+    background-color: #6e8898;
+    color: #f2f4f3;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    background-color: #f2f4f3;
+   
+}
+p{
+    color: #3C474B;
+    font-size: 30px;
+    font-family: Slabo 13px;
+}
+h1{
+    color: #FFCF56;
+    font-size: 50px;
+    font-family: Playfair Display;
+}
+.button-box{
+    background-color: #111D4A;
+    font-size: 20px;
+    font-family: Playfair Display;
+    padding: 15px 30px;
+    border-radius: 5px;
+    max-width: 200px;
+}
+.button-box:hover{
+    background-color: #6e8898;
+}
+.button-box a{
+    color: #FFCF56;
+    text-decoration: none;
+}
+.mission-box{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+.mission-box div{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-content: center;
+    padding: 15px;
+    text-align: justify;
+}
+.mission-box img{
+    width: 100%;
+    box-shadow: 10px 10px 15px #6E8898;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.mission-box h1{
+    text-align: center;
+}
+.attorney-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-items: center;
+}
+.attorney-box p{
+    max-width: 600px;
+    text-align: justify;
+}
+.attorney-box div{
+    grid-column: 1/2;
+}
+.services-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+.services-box div{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.services-box img{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    width: 100%;
+    box-shadow: 10px 10px 15px #6E8898;
+    border-radius: 15px;
+}
+.services-box p{
+    text-align: justify;
+    padding: 0px 15px;
+}
+.services-box .button-box{
+    grid-row: 2/3;
+}
