@@ -3,6 +3,11 @@ header{
     background-color: #6e8898;
     display: grid;
     grid-template-columns: 150px auto;
+    align-items: center;
+}
+header img{
+    padding: 10px;
+    border-radius: 13px;
 }
 nav{
     display: flex;
@@ -10,9 +15,8 @@ nav{
     align-items: center;
 }
 nav a{
-    text-align: center;
     color: #f2f4f3;
-    padding: 40px;
+    padding: 30px;
     font-family: Playfair Display;
     text-decoration: none;
     font-size: 35px;
@@ -20,14 +24,27 @@ nav a{
 nav a:hover{
     background-color: #111D4A;
     color: #FFCF56;
+    border-radius: 10px;
 }
 footer{
     background-color: #6e8898;
-    color: #f2f4f3;
     font-size: 30px;
+    font-family: Playfair Display;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+footer p{
+    color:#f2f4f3;
+}
+footer a{
+    color:#f2f4f3;
+    padding: 50px;
+    border-radius: 10px;
+}
+footer a:hover{
+    color: #FFCF56;
+    background-color: #111D4A;
 }
 body{
     background-color: #f2f4f3;
