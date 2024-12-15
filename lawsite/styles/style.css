@@ -137,3 +137,41 @@ h1{
 .services-box .button-box{
     grid-row: 2/3;
 }
+hr{
+    border-top: 5px solid #FFCF56;
+}
+.employee-box{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+}
+.employee-box h3{
+    color:#111D4A;
+    font-size: 40px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 0px 20px;
+    align-self: center;
+}
+.employee-box p{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: justify;
+    padding: 0px 20px;
+    margin: 0px;
+}
+.employee-box img{
+    grid-row: 1/3;
+    grid-column: 1/2;
+    margin: 20px;
+    justify-self: center;
+    box-shadow: 10px 10px 15px #6E8898;
+    border: 8px solid #111D4A;
+    border-radius: 15px;
+}
+#attorney{
+    text-align: center;
+    background-color: #111D4A;
+    margin: 0px;
+    padding: 20px
+}
